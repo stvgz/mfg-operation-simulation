@@ -1,0 +1,5 @@
+product_id,product_code,product_name,part_group,desc,price_base,launch_date,
+1,A,基础款,A,a,1500,2018/01,
+2,B,改良款,A,b,2000,2019/01,
+3,C,高端款,B,高端改善款,3000,2021/01,
+4,D,豪华款,B,超级豪华款,4500,2022/01,

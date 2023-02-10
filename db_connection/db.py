@@ -1,0 +1,6 @@
+
+
+PG_HOST="43.137.10.2:5432"
+PG_USER="postgres"
+PG_PASSWORD="cZ6eMqv&AZ4P^uB2"
+DB_NAME="postgres"
