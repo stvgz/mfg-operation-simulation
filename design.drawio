@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="VvcDA4hE2L22VD2zeNjT" name="Page-1">
-        <mxGraphModel dx="2845" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2602" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -49,7 +49,7 @@
                 <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="10" target="131">
+                <mxCell id="133" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="1" source="10" target="131" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="850" y="460"/>
@@ -82,15 +82,15 @@
                 <mxCell id="12" value="production_by_product&lt;br&gt;每一件产品的细节生产过程&lt;br&gt;按照单件生产的管理模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
                     <mxGeometry x="170" y="600" width="120" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="13" target="116">
+                <mxCell id="124" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="13" target="116" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" value="根据库存 调整生产计划" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="124">
+                <mxCell id="126" value="根据库存 调整生产计划" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="124" vertex="1" connectable="0">
                     <mxGeometry x="-0.2959" y="1" relative="1" as="geometry">
                         <mxPoint y="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="130" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="13" target="129">
+                <mxCell id="130" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="13" target="129" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="inventory_product&lt;br&gt;成品库存&lt;br&gt;&lt;br&gt;非常接近完成的状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -190,10 +190,13 @@
                 <mxCell id="103" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="41" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="purchase_order&lt;br&gt;直接给供应商的订单&lt;br&gt;颗粒度每个订单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="900" y="1010" width="120" height="60" as="geometry"/>
+                <mxCell id="136" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="41" target="98">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="37" edge="1">
+                <mxCell id="41" value="purchase_order&lt;br&gt;直接给供应商的订单&lt;br&gt;颗粒度每个订单&lt;br&gt;表名称：&lt;br&gt;parts_order_inventory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="995" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="37" edge="1" source="105">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1070" y="890" as="sourcePoint"/>
                     </mxGeometry>
@@ -297,20 +300,20 @@
                 <mxCell id="96" value="suppliers&lt;br&gt;供应商表格&lt;br&gt;包含每个bom 产品的所有供应商，一个产品会来自于不同的供应商，不同的供应商会有相应的不同价格" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1190" y="1010" width="260" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="128" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="98" target="99">
+                <mxCell id="128" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="98" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="parts_inventory&lt;br&gt;零件库存状态&lt;br&gt;&lt;br&gt;默认只有当前的状态" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="635" y="1370" width="120" height="60" as="geometry"/>
+                <mxCell id="98" value="parts_inventory&lt;br&gt;零件库存状态&lt;br&gt;parts_order_inventory&lt;br&gt;&lt;br&gt;（默认只有当前的状态，这个不存在了，有一个每个月度的表格进行代替）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="635" y="1370" width="275" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="parts_inventory_history&lt;br&gt;&lt;br&gt;零件历史状态总结&lt;br&gt;按照时间点进行的切片" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="99" value="parts_inventory_history&lt;br&gt;&lt;br&gt;零件历史状态总结&lt;br&gt;按照时间点进行的切片" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="430" y="1370" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="100" value="quality_summary&lt;br&gt;1. 总体的质量表现，2. 每个工站质量表现&lt;br&gt;&lt;br&gt;3. 质量良率趋势等等&lt;br&gt;4. 每个工站的良率" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
                     <mxGeometry x="-50" y="970" width="120" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="105" value="bom_price&lt;br&gt;原料价格变动情况，按照月度进行&lt;br&gt;包含维度，month, part, base_price(一个基础的价格，在订货量发生改变的时候会进行改变）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1190" y="870" width="260" height="60" as="geometry"/>
+                    <mxGeometry x="1130" y="860" width="260" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="107" value="shift_model&lt;br&gt;排班时间" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-250" y="760" width="120" height="60" as="geometry"/>
@@ -318,7 +321,7 @@
                 <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="110" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="110" target="131">
+                <mxCell id="132" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="1" source="110" target="131" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="110" value="订单在&lt;br&gt;小时分布&lt;br&gt;星期几的分布&amp;nbsp; 地域分布&lt;br&gt;作为输入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -330,10 +333,10 @@
                 <mxCell id="117" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="116" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="116" target="13">
+                <mxCell id="125" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="116" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="生产后进入库存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="125">
+                <mxCell id="127" value="生产后进入库存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="125" vertex="1" connectable="0">
                     <mxGeometry x="0.4896" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -350,10 +353,10 @@
                 <mxCell id="123" value="设备总体输入" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1970" y="565" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="“库存数字化Dashboard进行完成”" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+                <mxCell id="129" value="“库存数字化Dashboard进行完成”" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
                     <mxGeometry x="130" y="1400" width="200" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="131" target="12">
+                <mxCell id="134" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="131" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1050" y="570"/>
@@ -362,12 +365,12 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="135" value="进一步迭代生产过程&amp;nbsp; 以及 供应商订货从生产计划出来" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="134">
+                <mxCell id="135" value="进一步迭代生产过程&amp;nbsp; 以及 供应商订货从生产计划出来" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="134" vertex="1" connectable="0">
                     <mxGeometry x="-0.733" y="4" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="131" value="根据历史销量 进行&lt;br&gt;order_prediction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+                <mxCell id="131" value="根据历史销量 进行&lt;br&gt;order_prediction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
                     <mxGeometry x="990" y="415" width="120" height="90" as="geometry"/>
                 </mxCell>
             </root>
