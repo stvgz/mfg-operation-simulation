@@ -1,2 +1,5 @@
 */__pycache__
 .vscode
+
+# for notebook
+.ipynb_checkpoints
