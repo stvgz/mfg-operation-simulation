@@ -1,6 +1,9 @@
 */__pycache__
 .vscode
+__pycache__
 
 # for notebook
 .ipynb_checkpoints
 db_connection
+
+dashboard_export
