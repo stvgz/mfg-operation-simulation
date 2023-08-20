@@ -6,4 +6,9 @@ __pycache__
 .ipynb_checkpoints
 db_connection
 
+.DS_Store
+
 dashboard_export
+dashboard_export*
+
+superset_setup.md
