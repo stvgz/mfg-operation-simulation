@@ -8,6 +8,8 @@ db_connection
 
 .DS_Store
 
+.env
+
 dashboard_export
 dashboard_export*
 
