@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="keo3DPPP8v9HtFNkFmDR" name="Page-1">
+        <mxGraphModel dx="814" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="MFG&lt;br&gt;MODEL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="MFG&lt;br&gt;Chat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="100" width="120" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="MFG&lt;br&gt;BI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="MFG&lt;br&gt;Case" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="40" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="40" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="MFG&lt;br&gt;Book" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="100" width="120" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="MFG &lt;br&gt;Open&lt;br&gt;Softwares&lt;br&gt;Solutions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
